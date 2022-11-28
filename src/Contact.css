@@ -1,18 +1,18 @@
 .contact{
-    background-color: #faf9f9ea;
+    background-color: white;
 }
 #Contact{
-    background-color: black;
+    background-color: #172337;
 }
 
-h1.hire__text {
-    font-size: 60px;
-    color:rgb(245, 240, 240);
+h4.hire__text {
+    font-size: 30px;
+    color:white;
 }
 p.hire__text{
     font-size: 18px;
     line-height: 30px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-weight: 400;
 }
 input.contact{
@@ -39,13 +39,14 @@ input.contact{
     overflow: hidden;
 }
 textarea#message{
-    height: 120px;
+    height: 80px;
     background: none;
     padding: 0 20px;
-    width: 100%;
+    width: 400px;
     line-height: 46px;
-    color: rgb(187, 182, 182);
+    color: white;
     font-size: 15px;
+    background-color: azure;
     letter-spacing: .1px;
     border: 2px solid rgb(19, 3, 3);
 }
@@ -55,5 +56,20 @@ button.btn.contact.pointer {
     width: 120px;
     height: 35px;
     font-size: 14px;
+    background-color: aliceblue;
     transition: .4s ease;
+    color: aliceblue;
+}
+.input__box{
+    
+    width: 400px;
+}
+#name{
+    background-color: aliceblue;
+}
+#email{
+    background-color: aliceblue;
+}
+#subject{
+    background-color: aliceblue;
 }
