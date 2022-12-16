@@ -23,7 +23,7 @@ import ProfileScreen from './screens/ProfileScreen';
 import Button from 'react-bootstrap/Button';
 import { getError } from './utils';
 import axios from 'axios';
-
+import Contact from './Contact';
 import SearchBox from './components/SearchBox';
 import SearchScreen from './screens/SearchScreen';
 
@@ -162,7 +162,9 @@ function App() {
             </Routes>
           </Container>
         </main>
-        
+        <footer>
+         <Contact/>
+        </footer>
       </div>
     </BrowserRouter>
   );
