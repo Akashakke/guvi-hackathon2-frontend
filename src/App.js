@@ -26,7 +26,7 @@ import axios from 'axios';
 
 import SearchBox from './components/SearchBox';
 import SearchScreen from './screens/SearchScreen';
-import Contact from './Contact';
+
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -162,9 +162,7 @@ function App() {
             </Routes>
           </Container>
         </main>
-        <footer>
-         <Contact/>
-        </footer>
+        
       </div>
     </BrowserRouter>
   );
